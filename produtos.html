@@ -3,115 +3,178 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Produtos | Espaço Gamer</title>
-  <meta name="description" content="Veja os produtos do Espaço Gamer e entre em contato pelo WhatsApp." />
+  <title>Serviços e preços | Espaço Gamer</title>
+  <meta name="description" content="Confira os serviços e preços da Espaço Gamer: informática, entretenimento, escritório e conveniência." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="logo" href="index.html">Espaço <span>Gamer</span></a>
-      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
-      <nav class="site-nav">
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="produtos.html" class="active">Produtos</a>
-        <a href="blog.html">Blog</a>
-        <a href="contato.html">Contato</a>
-      </nav>
-    </div>
-  </header>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">
+      <img src="assets/img/branding/logo-espaco-gamer.png" alt="Logo Espaço Gamer" />
+      <span class="logo-mark">Espaço Gamer<span>Jogatina, serviços e comunidade</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    <nav class="site-nav">
+      <a href="index.html" class="">Início</a>
+      <a href="sobre.html" class="">Sobre</a>
+      <a href="produtos.html" class="active">Serviços</a>
+      <a href="blog.html" class="">Blog</a>
+      <a href="contato.html" class="">Contato</a>
+    </nav>
+  </div>
+</header>
+
 
   <main class="page-main">
     <section class="page-hero">
       <div class="container narrow">
-        <p class="eyebrow">Catálogo</p>
-        <h1>Produtos em destaque</h1>
-        <p>Cada item leva direto para o WhatsApp do dono com uma mensagem pronta, mas o cliente pode editar e escrever o que quiser antes de enviar.</p>
+        <p class="eyebrow">Catálogo atualizado</p>
+        <h1>Serviços, experiências e conveniências da Espaço Gamer</h1>
+        <p>Os preços abaixo foram organizados com base no catálogo divulgado no Instagram da Espaço Gamer. Se quiser confirmar disponibilidade, horários ou reservar, fale direto no WhatsApp.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
         <div class="filter-bar">
-          <input type="text" id="productSearch" placeholder="Buscar produto..." aria-label="Buscar produto" />
+          <input type="text" id="productSearch" placeholder="Buscar por categoria, serviço ou palavra-chave..." aria-label="Buscar serviço" />
+          <p class="filter-note small-muted">Exemplos: videogame, currículo, formatação, internet, fliperama, refrigerante.</p>
         </div>
 
-        <div class="card-grid three" id="productGrid">
-          <article class="product-card searchable-card" data-name="headset rgb pro">
-            <div class="product-thumb">Headset</div>
-            <h3>Headset RGB Pro</h3>
-            <p>Ideal para imersão e conforto durante longas sessões.</p>
-            <a class="btn btn-primary btn-full" target="_blank" rel="noopener" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Headset%20RGB%20Pro.">Entrar em contato</a>
+        <div class="service-grid">
+          <article class="service-card searchable-card" data-search="informatica pc gamer internet intro edicao video youtube banner capa miniaturas overlays consultoria remota">
+            <span class="post-tag">💻 Informática</span>
+            <h3>Serviços digitais e de computador</h3>
+            <ul class="service-list">
+              <li><span>PC gamer (hora)</span><strong>R$ 12,00</strong></li>
+              <li><span>Acesso à internet</span><strong>R$ 8,00</strong></li>
+              <li><span>Criação de intro</span><strong>R$ 30,00</strong></li>
+              <li><span>Edição de vídeo para YouTube (até 50 min)</span><strong>R$ 30,00</strong></li>
+              <li><span>Banner / capa para canal</span><strong>R$ 30,00</strong></li>
+              <li><span>Arte para miniaturas</span><strong>R$ 10,00</strong></li>
+              <li><span>Criação de overlays personalizados</span><strong>R$ 40,00</strong></li>
+              <li><span>Consultoria Remota PC</span><strong>R$ 60,00</strong></li>
+            </ul>
+            <div class="mini-note">
+              <strong>Consultoria inclui:</strong>
+              <p>diagnóstico de problemas e lentidão, instalação e atualização de programas, configuração de antivírus, backup, sistema operacional e suporte para jogos, streaming e edição de vídeos.</p>
+            </div>
           </article>
 
-          <article class="product-card searchable-card" data-name="teclado mecânico tkl">
-            <div class="product-thumb">Teclado</div>
-            <h3>Teclado Mecânico TKL</h3>
-            <p>Compacto, responsivo e ótimo para setups modernos.</p>
-            <a class="btn btn-primary btn-full" target="_blank" rel="noopener" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Teclado%20Mec%C3%A2nico%20TKL.">Entrar em contato</a>
+          <article class="service-card searchable-card" data-search="manutenção upgrade manutencao troca pasta termica limpeza montagem pc gamer formatacao backup instalacao jogos programas">
+            <span class="post-tag">🛠️ Man. & Upg.</span>
+            <h3>Manutenção e upgrades</h3>
+            <ul class="service-list">
+              <li><span>Troca de pasta térmica</span><strong>R$ 30,00</strong></li>
+              <li><span>Limpeza completa</span><strong>R$ 50,00</strong></li>
+              <li><span>Montagem de PC Gamer</span><strong>R$ 80,00</strong></li>
+              <li><span>Formatação simples</span><strong>R$ 60,00</strong></li>
+              <li><span>Formatação + backup</span><strong>R$ 80,00</strong></li>
+              <li><span>Instalação de jogos</span><strong>R$ 30,00</strong></li>
+              <li><span>Instalação de programas</span><strong>R$ 20,00</strong></li>
+            </ul>
           </article>
 
-          <article class="product-card searchable-card" data-name="mouse ultra speed">
-            <div class="product-thumb">Mouse</div>
-            <h3>Mouse Ultra Speed</h3>
-            <p>Leve e preciso para jogos que exigem rapidez.</p>
-            <a class="btn btn-primary btn-full" target="_blank" rel="noopener" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Mouse%20Ultra%20Speed.">Entrar em contato</a>
+          <article class="service-card searchable-card" data-search="entretenimento videogame hora fliperama gameplay gravacao gravação espaço espaco">
+            <span class="post-tag">🎮 Entretenimento</span>
+            <h3>Jogos e gravação</h3>
+            <ul class="service-list">
+              <li><span>Videogame (hora)</span><strong>R$ 12,00</strong></li>
+              <li><span>Ficha de fliperama</span><strong>R$ 3,00</strong></li>
+              <li><span>Acesso ao espaço para gravação de gameplay (hora)</span><strong>R$ 20,00</strong></li>
+            </ul>
           </article>
 
-          <article class="product-card searchable-card" data-name="controle wireless x">
-            <div class="product-thumb">Controle</div>
-            <h3>Controle Wireless X</h3>
-            <p>Mais liberdade e conforto para jogar em diferentes estilos.</p>
-            <a class="btn btn-primary btn-full" target="_blank" rel="noopener" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Controle%20Wireless%20X.">Entrar em contato</a>
+          <article class="service-card searchable-card" data-search="escritorio escritório curriculo digitação digitacao trabalhos cartões cartoes panfletos cartazes xerox digitalizacao digitalização impressão impressao color pb papel especial">
+            <span class="post-tag">📄 Escritório</span>
+            <h3>Serviços práticos do dia a dia</h3>
+            <ul class="service-list">
+              <li><span>Criação de currículo</span><strong>R$ 10,00</strong></li>
+              <li><span>Digitação de trabalhos (por página)</span><strong>R$ 3,00</strong></li>
+              <li><span>Arte – cartões de visita</span><strong>R$ 20,00</strong></li>
+              <li><span>Arte – panfletos / cartazes</span><strong>R$ 25,00</strong></li>
+              <li><span>Xerox – página</span><strong>R$ 0,50</strong></li>
+              <li><span>Digitalização de documento</span><strong>R$ 2,00</strong></li>
+              <li><span>Impressão colorida</span><strong>R$ 2,00</strong></li>
+              <li><span>Impressão P&B</span><strong>R$ 1,00</strong></li>
+              <li><span>Impressão em papel especial (135g)</span><strong>R$ 3,00</strong></li>
+            </ul>
+            <div class="mini-note">
+              <p>Ideal para convites, lembrancinhas e datas comemorativas.</p>
+            </div>
           </article>
 
-          <article class="product-card searchable-card" data-name="mousepad speed max">
-            <div class="product-thumb">Mousepad</div>
-            <h3>Mousepad Speed Max</h3>
-            <p>Superfície ampla para maior fluidez nos movimentos.</p>
-            <a class="btn btn-primary btn-full" target="_blank" rel="noopener" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Mousepad%20Speed%20Max.">Entrar em contato</a>
+          <article class="service-card searchable-card" data-search="conveniencia conveniência agua refrigerante salgadinhos pipoca halls bala fini b minty moranguete paçoca pacoca">
+            <span class="post-tag">🍿 Conveniência</span>
+            <h3>Lanches e bebidas</h3>
+            <ul class="service-list">
+              <li><span>Água sem gás</span><strong>R$ 3,00</strong></li>
+              <li><span>Água com gás</span><strong>R$ 3,00</strong></li>
+              <li><span>Refrigerante Coca Lt 350 ml</span><strong>R$ 5,00</strong></li>
+              <li><span>Refrigerante Coca 200 ml</span><strong>R$ 2,50</strong></li>
+              <li><span>Salgadinhos</span><strong>R$ 3,00</strong></li>
+              <li><span>Pipoca doce</span><strong>R$ 2,00</strong></li>
+              <li><span>Halls / Bala Fini</span><strong>R$ 2,00</strong></li>
+              <li><span>B. Minty / Moranguete / Paçoca</span><strong>R$ 1,00</strong></li>
+            </ul>
           </article>
 
-          <article class="product-card searchable-card" data-name="cadeira gamer prime">
-            <div class="product-thumb">Cadeira</div>
-            <h3>Cadeira Gamer Prime</h3>
-            <p>Conforto e presença visual para o seu ambiente gamer.</p>
-            <a class="btn btn-primary btn-full" target="_blank" rel="noopener" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20tenho%20interesse%20na%20Cadeira%20Gamer%20Prime.">Entrar em contato</a>
+          <article class="service-card searchable-card" data-search="reserva whatsapp instagram presidente prudente trailer ambiente lan house espaço gamer">
+            <span class="post-tag">📍 Reservas</span>
+            <h3>Fale direto com a Espaço Gamer</h3>
+            <p>Para confirmar valores, horários e disponibilidade, o melhor caminho é entrar em contato direto com a equipe.</p>
+            <ul class="contact-list">
+              <li>WhatsApp: <span data-whatsapp-number></span></li>
+              <li>E-mail: <span data-email-text></span></li>
+              <li>Instagram: <span data-instagram-user></span></li>
+              <li>Localidade: <span data-city></span></li>
+            </ul>
+            <a data-whatsapp-link data-whatsapp-text="Olá! Vim pelo catálogo do site do Espaço Gamer e gostaria de mais informações." class="btn btn-primary btn-full">Pedir informações</a>
           </article>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <a class="logo footer-logo" href="index.html">Espaço <span>Gamer</span></a>
-        <p>Site institucional e catálogo com contato direto pelo WhatsApp.</p>
-      </div>
-      <div>
-        <h4>Páginas</h4>
-        <ul>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contato</h4>
-        <ul>
-          <li><a target="_blank" rel="noopener" href="https://wa.me/5500000000000">WhatsApp</a></li>
-          <li><a href="mailto:contato@espacogamerpp.com.br">contato@espacogamerpp.com.br</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="index.html">
+        <img src="assets/img/branding/logo-espaco-gamer.png" alt="Logo Espaço Gamer" />
+        <span class="logo-mark">Espaço Gamer<span>Presença gamer em Presidente Prudente</span></span>
+      </a>
+      <p>Site institucional atualizado com base nas informações reais do Instagram <span data-instagram-user></span>, com foco em reservas, serviços, conteúdo e comunidade.</p>
+      <p class="footer-note small-muted">© <span data-current-year></span> Espaço Gamer. Todos os direitos reservados.</p>
+    </div>
+    <div>
+      <h4>Páginas</h4>
+      <ul>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="produtos.html">Serviços</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <ul>
+        <li><a data-whatsapp-link data-whatsapp-text="Olá! Vim pelo site do Espaço Gamer e quero mais informações.">WhatsApp: <span data-whatsapp-number></span></a></li>
+        <li><a data-email-link><span data-email-text></span></a></li>
+        <li><a data-instagram-link>Instagram <span data-instagram-user></span></a></li>
+        <li><span data-city></span></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="assets/js/site-config.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -4,78 +4,126 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contato | Espaço Gamer</title>
-  <meta name="description" content="Entre em contato com o Espaço Gamer." />
+  <meta name="description" content="Entre em contato com a Espaço Gamer pelo WhatsApp, e-mail ou Instagram." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="logo" href="index.html">Espaço <span>Gamer</span></a>
-      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
-      <nav class="site-nav">
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="blog.html">Blog</a>
-        <a href="contato.html" class="active">Contato</a>
-      </nav>
-    </div>
-  </header>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">
+      <img src="assets/img/branding/logo-espaco-gamer.png" alt="Logo Espaço Gamer" />
+      <span class="logo-mark">Espaço Gamer<span>Jogatina, serviços e comunidade</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    <nav class="site-nav">
+      <a href="index.html" class="">Início</a>
+      <a href="sobre.html" class="">Sobre</a>
+      <a href="produtos.html" class="">Serviços</a>
+      <a href="blog.html" class="">Blog</a>
+      <a href="contato.html" class="active">Contato</a>
+    </nav>
+  </div>
+</header>
+
 
   <main class="page-main">
     <section class="page-hero">
       <div class="container narrow">
         <p class="eyebrow">Contato</p>
-        <h1>Fale com o Espaço Gamer</h1>
-        <p>Use os canais abaixo para tirar dúvidas, pedir informações sobre produtos ou falar diretamente com a empresa.</p>
+        <h1>Fale com a Espaço Gamer</h1>
+        <p>Use os canais abaixo para reservas, dúvidas, informações sobre serviços, preços e novidades. O atendimento oficial divulgado pela marca foi centralizado aqui.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container card-grid two">
-        <div class="info-box">
-          <h2>WhatsApp</h2>
-          <p>Canal principal para atendimento rápido.</p>
-          <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20do%20Espa%C3%A7o%20Gamer." target="_blank" rel="noopener" class="btn btn-primary">Abrir WhatsApp</a>
+        <div class="contact-card">
+          <span class="post-tag">WhatsApp</span>
+          <h3>Canal principal de atendimento</h3>
+          <p>Ideal para reservar, pedir informações e falar diretamente com a Espaço Gamer.</p>
+          <p><strong data-whatsapp-number></strong></p>
+          <a data-whatsapp-link data-whatsapp-text="Olá! Vim pelo site do Espaço Gamer e gostaria de mais informações." class="btn btn-primary">Abrir WhatsApp</a>
         </div>
 
-        <div class="info-box">
-          <h2>E-mail</h2>
-          <p>Para dúvidas gerais, parcerias e atendimento.</p>
-          <a href="mailto:contato@espacogamerpp.com.br" class="btn btn-secondary">Enviar e-mail</a>
+        <div class="contact-card">
+          <span class="post-tag">E-mail</span>
+          <h3>Para atendimento e contato geral</h3>
+          <p><span data-email-text></span></p>
+          <a data-email-link class="btn btn-secondary">Enviar e-mail</a>
+        </div>
+
+        <div class="contact-card">
+          <span class="post-tag">Instagram</span>
+          <h3>Acompanhe novidades e publicações</h3>
+          <p>Veja trailers, atualizações de catálogo e conteúdos publicados pela marca.</p>
+          <p><strong data-instagram-user></strong></p>
+          <a data-instagram-link class="btn btn-secondary">Abrir Instagram</a>
+        </div>
+
+        <div class="contact-card">
+          <span class="post-tag">Localidade</span>
+          <h3>Presença local</h3>
+          <p>O espaço atende em <strong data-city></strong>.</p>
+          <p class="small-muted">Caso queira visitar, reserve ou confirme informações diretamente pelos canais oficiais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg">
+      <div class="container two-col">
+        <div class="image-frame">
+          <img src="assets/img/generated/lounge-espaco-gamer.png" alt="Ambiente visual do Espaço Gamer" />
+        </div>
+        <div>
+          <p class="eyebrow">Atendimento fácil</p>
+          <h2>Tudo pronto para o público entrar em contato rápido</h2>
+          <p>Além da atualização dos dados, este site foi reorganizado para ficar mais fácil de manter. Os contatos principais estão concentrados em um arquivo central e o espaço para novas imagens também já foi criado.</p>
+          <div class="notice-box">
+            <p><strong>Para atualizar contatos no futuro:</strong> edite o arquivo <code>assets/js/site-config.js</code>.</p>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <a class="logo footer-logo" href="index.html">Espaço <span>Gamer</span></a>
-        <p>Site institucional e catálogo com contato direto pelo WhatsApp.</p>
-      </div>
-      <div>
-        <h4>Páginas</h4>
-        <ul>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contato</h4>
-        <ul>
-          <li><a target="_blank" rel="noopener" href="https://wa.me/5500000000000">WhatsApp</a></li>
-          <li><a href="mailto:contato@espacogamerpp.com.br">contato@espacogamerpp.com.br</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="index.html">
+        <img src="assets/img/branding/logo-espaco-gamer.png" alt="Logo Espaço Gamer" />
+        <span class="logo-mark">Espaço Gamer<span>Presença gamer em Presidente Prudente</span></span>
+      </a>
+      <p>Site institucional atualizado com base nas informações reais do Instagram <span data-instagram-user></span>, com foco em reservas, serviços, conteúdo e comunidade.</p>
+      <p class="footer-note small-muted">© <span data-current-year></span> Espaço Gamer. Todos os direitos reservados.</p>
+    </div>
+    <div>
+      <h4>Páginas</h4>
+      <ul>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="produtos.html">Serviços</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <ul>
+        <li><a data-whatsapp-link data-whatsapp-text="Olá! Vim pelo site do Espaço Gamer e quero mais informações.">WhatsApp: <span data-whatsapp-number></span></a></li>
+        <li><a data-email-link><span data-email-text></span></a></li>
+        <li><a data-instagram-link>Instagram <span data-instagram-user></span></a></li>
+        <li><span data-city></span></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="assets/js/site-config.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

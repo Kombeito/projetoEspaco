@@ -1,53 +1,44 @@
-# Espaço Gamer - Site estático para GitHub Pages
+# Espaço Gamer - site atualizado
 
-Estrutura criada para funcionar como site institucional + catálogo + blog estático.
+Site estático em HTML, CSS e JavaScript com foco em:
+- apresentação da Espaço Gamer
+- serviços e preços
+- conteúdo de blog
+- contato por WhatsApp, e-mail e Instagram
 
-## Estrutura de pastas
+## Dados principais já atualizados
+- WhatsApp: +55 (18) 99702-3732
+- E-mail: espacogamer.lan@gmail.com
+- Instagram: @espac0gamer
+- Localidade: Presidente Prudente - SP
 
-```text
-espaco-gamer-site/
-├── index.html
-├── sobre.html
-├── produtos.html
-├── blog.html
-├── contato.html
-├── README.md
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── img/
-└── blog/
-    ├── post-1.html
-    └── post-2.html
-```
+## Estrutura principal
+- `index.html` → página inicial
+- `sobre.html` → sobre a marca
+- `produtos.html` → serviços e preços
+- `blog.html` → lista de posts
+- `blog/post-1.html` → CasalZeraFacil
+- `blog/post-2.html` → catálogo atualizado
+- `blog/post-3.html` → trailer oficial 2
+- `contato.html` → página de contato
 
-## O que precisa trocar antes de publicar
+## Onde atualizar mais rápido
+### Contatos e redes
+Edite:
+- `assets/js/site-config.js`
 
-1. Trocar todos os links `5500000000000` pelo número real do WhatsApp no formato internacional.
-   - Exemplo Brasil: `5511999999999`
-2. Trocar o e-mail `contato@espacogamerpp.com.br` pelo e-mail real.
-3. Editar os textos da marca, produtos e posts.
-4. Substituir placeholders por imagens reais, se quiser.
+### Imagens
+- logo: `assets/img/branding/`
+- imagens geradas: `assets/img/generated/`
+- novas imagens: `assets/img/uploads/`
 
-## Como subir no GitHub Pages
+### Visual do site
+Edite:
+- `assets/css/style.css`
 
-1. Criar um repositório no GitHub.
-2. Enviar todos os arquivos para o repositório.
-3. Ir em **Settings > Pages**.
-4. Em **Build and deployment**, escolher:
-   - **Source:** Deploy from a branch
-   - **Branch:** main
-   - **Folder:** / (root)
-5. Salvar.
-6. Depois configurar o domínio personalizado no GitHub Pages.
+### Funcionalidades
+Edite:
+- `assets/js/main.js`
 
 ## Observação
-
-Este projeto é estático. Ele funciona muito bem para:
-- páginas institucionais
-- catálogo com botão de WhatsApp
-- blog estático
-- links, navegação e interações básicas em JavaScript
-
+As informações do site foram adaptadas a partir dos conteúdos enviados e do Instagram informado pelo usuário.
