@@ -1,0 +1,16 @@
+Imagens geradas para o site:
+
+- hero-scorpion.png
+  Banner principal com guerreiro inspirado no estilo Scorpion e logo Espaço Gamer.
+
+- lounge-espaco-gamer.png
+  Espaço pequeno e aconchegante com 4 PCs gamers, 2 pessoas jogando, Xbox One embaixo da escada, cafeteira, estufa de salgados, paredes cinzas e LEDs nos cantos.
+
+- casal-zerafacil.png
+  Segunda imagem no mesmo estilo, com o espaço aconchegante, PCs gamers, Xbox One embaixo da escada, cafeteira e estufa.
+
+- espaco-gamer-4pcs-xbox-cafe-estufa.png
+  Cópia descritiva da imagem principal do ambiente.
+
+- espaco-gamer-sala-aconchegante.png
+  Cópia descritiva da segunda imagem do ambiente.
