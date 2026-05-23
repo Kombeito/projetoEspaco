@@ -729,3 +729,17 @@ ul { margin: 0; padding: 0; }
     margin-bottom: 22px;
   }
 }
+
+
+/* SEO e navegação interna */
+.related-links {
+  margin: 42px 0 28px;
+}
+.related-links h2 {
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  margin-bottom: 18px;
+}
+.related-links .post-card {
+  display: block;
+  color: inherit;
+}

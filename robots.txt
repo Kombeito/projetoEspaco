@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://espacogamerpp.com.br/sitemap.xml

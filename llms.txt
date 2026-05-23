@@ -1,0 +1,22 @@
+# Espaço Gamer
+
+Site oficial da Espaço Gamer em Presidente Prudente - SP.
+
+## Sobre
+A Espaço Gamer é um espaço local para jogos, tecnologia e atendimento prático. O local reúne PCs gamers, console Xbox One, fliperama, acesso à internet, criação de conteúdo, serviços de informática, escritório, lanches e bebidas.
+
+## Páginas principais
+- Página inicial: https://espacogamerpp.com.br/
+- Sobre: https://espacogamerpp.com.br/sobre.html
+- Serviços e preços: https://espacogamerpp.com.br/produtos.html
+- Blog: https://espacogamerpp.com.br/blog.html
+- Contato: https://espacogamerpp.com.br/contato.html
+
+## Contato
+- WhatsApp: +55 (18) 99702-3732
+- E-mail: espacogamer.lan@gmail.com
+- Instagram: https://www.instagram.com/espac0gamer/
+- Cidade: Presidente Prudente - SP
+
+## Conteúdo
+O site contém informações institucionais, serviços, preços, fotos reais do espaço, posts do blog, história do fundador Robson e canais oficiais de contato.
