@@ -630,3 +630,102 @@ ul { margin: 0; padding: 0; }
     font-size: 0.98rem;
   }
 }
+
+/* Fotos reais, blog e seção dos proprietários */
+.real-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.real-gallery-grid .gallery-card img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.owner-profile {
+  align-items: start;
+}
+.owner-photo img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.post-card-with-cover {
+  padding: 0;
+  overflow: hidden;
+}
+.post-card-with-cover .post-tag,
+.post-card-with-cover h3,
+.post-card-with-cover p,
+.post-card-with-cover .text-link {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.post-card-with-cover .post-tag {
+  margin-top: 22px;
+}
+.post-card-with-cover .text-link {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.post-card-cover {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+.post-card-cover img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  transition: transform .25s ease;
+}
+.post-card-cover:hover img {
+  transform: scale(1.03);
+}
+.blog-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 30px 0;
+}
+.blog-photo-grid figure {
+  margin: 0;
+  background: linear-gradient(180deg, rgba(18,18,18,0.88), rgba(12,12,12,0.88));
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.blog-photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.blog-photo-grid figcaption {
+  color: var(--muted);
+  padding: 14px 16px 16px;
+  line-height: 1.55;
+}
+.promo-cover img {
+  max-height: 720px;
+  object-fit: contain;
+  background: #1e0738;
+}
+
+@media (max-width: 920px) {
+  .real-gallery-grid,
+  .blog-photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .post-card-with-cover .post-tag,
+  .post-card-with-cover h3,
+  .post-card-with-cover p,
+  .post-card-with-cover .text-link {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .post-card-with-cover .text-link {
+    margin-bottom: 22px;
+  }
+}
