@@ -32,3 +32,16 @@ Os textos foram atualizados com base nas informações enviadas do Instagram `@e
 - Novo post: `blog/post-5.html` com fotos do espaço
 - Novo post: `blog/post-6.html` com a promoção Quarta-feira Maluca
 - Página `sobre.html` atualizada com a seção "Sobre os donos"
+
+## Atualização de JavaScript adicionada
+- Menu mobile fecha ao clicar fora, clicar em um link ou apertar ESC.
+- Header muda levemente quando a página rola.
+- Cards e seções aparecem com animação suave no scroll.
+- Galeria e imagens de posts abrem ampliadas ao clicar.
+- Botão fixo de WhatsApp foi adicionado automaticamente.
+- Botão de voltar ao topo aparece durante a rolagem.
+- Página de serviços ganhou filtros por categoria, além da busca.
+- Contatos podem ser copiados com clique.
+
+Arquivo principal da atualização:
+- `assets/js/main.js`
