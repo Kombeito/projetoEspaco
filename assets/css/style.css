@@ -458,3 +458,58 @@ ul { margin: 0; padding: 0; }
   }
   .service-list li span { max-width: 100%; }
 }
+
+/* Ajustes solicitados: banner principal sem texto por cima e conteúdo abaixo */
+.hero-showcase {
+  background: #050505;
+  border-bottom: 1px solid var(--line);
+}
+.hero-showcase img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: cover;
+  object-position: center;
+}
+.intro-section {
+  padding-top: 58px;
+}
+.intro-grid {
+  align-items: center;
+}
+.intro-section h1 {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+  margin: 0 0 18px;
+}
+.intro-contact h2 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+.compact-section {
+  padding-top: 64px;
+}
+.card-grid.four {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1100px) {
+  .card-grid.four {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 920px) {
+  .hero-showcase img {
+    min-height: 320px;
+    object-position: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .card-grid.four {
+    grid-template-columns: 1fr;
+  }
+  .hero-showcase img {
+    min-height: 260px;
+  }
+}
